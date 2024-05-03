@@ -1,0 +1,54 @@
+Introdução ao Git e GitHub para inciantes
+
+Criar um repositório novo no GitHub
+
+Passo a passo...
+
+Dentro do GitHub, clica em new repository;
+Logo após...
+Creat new repository;
+Dá um nome para o repositório em repository name...
+Repository name; (dio-desafio-github-primeiro-repositorio)
+Escreva uma descrição...
+Descrição: Desafio de Projeto sobre Git/GitHub
+Deixa Public;
+Initialize this repository with:
+Marcar a caixa do README
+Add a README file
+
+Creat repository
+
+Clicando no README dentro do GitHub, vc consegue modificar algumas coisas também.
+Iremos adicionar um link;
+##Links Úteis
+[Sintaxe_Basica_Markdown](https://www.markdownguide.org/basic-syntax/)
+
+Depois de feito as alterações, clica em commit changes
+
+Agora iremos clonar o repositório do GitHub e Colar no GitBash
+
+Primeiro cria uma pasta no disco local C:/
+Neste caso eu criei com o nome: Dev-Git-DIO
+Clica em Code e Copia a URL e Cola no GitBash
+No GitBash, digita: git clone e cole ao lado que vc copiou no GitHub
+
+Ex:
+git clone https://github.com/railtomlucas/dio-desafio-github-primeiro-repositorio.git
+Cloning into 'dio-desafio-github-primeiro-repositorio'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+Verifica os stataus digitando git status + Enter
+git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Podemos também adicionar qualquer coisa, tipo:
+Dentro da Pasta C:/, criar arquivos, modificar, e colocar dentro do GitHub essas feições e alterações.
+
+
+
+ 
